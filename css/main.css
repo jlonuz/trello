@@ -1,0 +1,25 @@
+.fondo {
+	background-color: #80D0D6;
+}
+.fondo2 {
+	background-color:#C8F3FA;
+}
+h1 {
+	font-family: 'Coiny', cursive;
+}
+
+h5 {
+	font-family: 'Itim', cursive;
+}
+.boton {
+	margin-top:30px;
+	margin-bottom: 15px;
+} 
+
+.input {
+	margin-left:10px;
+}
+
+.boton-guardar {
+	margin-left: 10px;
+}
