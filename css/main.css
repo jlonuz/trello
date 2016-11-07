@@ -8,7 +8,7 @@ h1 {
 	font-family: 'Coiny', cursive;
 }
 
-h5 {
+h4 {
 	font-family: 'Itim', cursive;
 }
 .boton {
@@ -18,8 +18,14 @@ h5 {
 
 .input {
 	margin-left:10px;
+	width:150px;
+	display:inline-block;
 }
 
 .boton-guardar {
 	margin-left: 10px;
+}
+
+.titulo-lista {
+	
 }
