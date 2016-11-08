@@ -4,8 +4,11 @@ function anadirLista(){
 	var botonGuardar = document.createElement("button");
 	var textoBoton = document.createTextNode("Guardar");
 
+
 	//asigno clases
 	inputFormulario.setAttribute("id","rescatarValor");
+	inputFormulario.focus();
+	inputFormulario.setAttribute("placeholder","Ingresa un título...")
 	inputFormulario.classList.add("input","form-control");
 	botonGuardar.classList.add("boton-guardar", "btn", "btn-default");
 
@@ -14,6 +17,8 @@ function anadirLista(){
 	saveBox.appendChild(inputFormulario);
 	saveBox.appendChild(botonGuardar);
 	botonGuardar.appendChild(textoBoton);
+
+	document.getElementById('rescatarValor').focus();
 
 	//cuando presiono guarar sucede esto:
 
@@ -39,7 +44,7 @@ function anadirLista(){
 		//Aquí les agregues sus respectivas clases
 
 	
-		divCol.classList.add("col-xs-4","col-ms-4","col-md-4");
+		divCol.classList.add("col-xs-4","col-ms-4","col-md-4","fondo3");
 		texto.setAttribute('class','titulo-lista');
 
 		//Asigno cada nodo con su hijo
@@ -55,16 +60,20 @@ function anadirLista(){
 
    		anadirTarjeta.addEventListener('click', function(){
 
-   		var textArea = document.createElement('textarea');
-   		console.log('llegue');
+	   		var textArea = document.createElement('textarea');
+	   		
 
-   		anadirTarjeta.appendChild(textArea);
+	   		textArea.classList.add('form-control','textarea-style');
+	   		textArea.setAttribute("placeholder","Ingresa tu tarea...");
+	   		//textArea.setAttribute('auto-focus');
+
+	   		texto.appendChild(textArea);
 
    		})
 
 
 
-	})
+	});
 
 	
 

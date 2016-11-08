@@ -3,29 +3,68 @@
 }
 .fondo2 {
 	background-color:#C8F3FA;
+	min-height: 100%;	
+	
 }
 h1 {
 	font-family: 'Coiny', cursive;
+	color:	#66B6DF;
+	text-shadow: 2px 2px #4B88A8;
 }
 
 h4 {
-	font-family: 'Itim', cursive;
+	/*font-family: 'Itim', cursive;*/
+	font-family: 'Josefin Sans', sans-serif;
+	
+	
 }
 .boton {
 	margin-top:30px;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 } 
 
 .input {
 	margin-left:10px;
 	width:150px;
 	display:inline-block;
+	margin-bottom: 10px;
 }
 
 .boton-guardar {
 	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 8px;
+}
+
+.fondo3 {
+	background-color: #F2F2F8;
+	margin-top: 10px;
+	margin-left: 10px;
+	border:2px solid #80D0D6;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 .titulo-lista {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #4175F8;
+
+}	
+
+a:hover{
+	text-decoration: none;
+}
+
+a {
+	cursor:pointer;
+	margin-left: 8px;
+
 	
 }
+.textarea-style {
+	margin-top:5px;
+	margin-bottom: 5px;
+}
+
+
