@@ -20,7 +20,7 @@ function anadirLista(){
 
 	document.getElementById('rescatarValor').focus();
 
-	//cuando presiono guarar sucede esto:
+	//cuando presiono guardar sucede esto:
 
 	botonGuardar.addEventListener('click', function(){
 
