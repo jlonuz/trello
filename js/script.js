@@ -44,7 +44,7 @@ function anadirLista(){
 		//Aquí les agregues sus respectivas clases
 
 	
-		divCol.classList.add("col-xs-4","col-ms-4","col-md-4","fondo3");
+		divCol.classList.add("fondo3", "iblock");
 		texto.setAttribute('class','titulo-lista');
 
 		//Asigno cada nodo con su hijo

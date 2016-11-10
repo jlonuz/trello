@@ -1,22 +1,16 @@
 body {
-	background-color: #C8F3FA;
-	/*width:5000px !important;*/
-	
+	background-image: url(../img/textura.jpg);
 }
-
 
 .fondo {
-	background-color: #80D0D6;
-	
-	
+	background-color: rgba(0,0,0,0.5);
 }
+
 .fondo2 {
-	background-color:#C8F3FA;
-	/*overflow:scroll;
 	height: 100vh;
-	width:100vw;*/
-	
+	width: auto;
 }
+
 h1 {
 	font-family: 'Coiny', cursive;
 	color:	#66B6DF;
@@ -24,14 +18,16 @@ h1 {
 }
 
 h4 {
-	/*font-family: 'Itim', cursive;*/
 	font-family: 'Josefin Sans', sans-serif;
-	
-	
+	color:#C6CAD3;
 }
+
 .boton {
 	margin-top:15px;
 	margin-bottom: 15px;
+	text-align: center;
+	color: #7649F5;
+	font-family: 'Josefin Sans', sans-serif;
 
 } 
 
@@ -81,4 +77,11 @@ a {
 
 }
 
-
+.iblock {
+	width: 300px;
+	display: inline-block;
+	float: left;
+  	min-height: 1px;
+  	padding-left: 10px;
+  	padding-right: 10px;
+}
